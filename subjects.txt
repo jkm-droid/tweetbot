@@ -1,6 +1,7 @@
 sociology
 computerscience
 it
+environmental studies
 technology
 geography
 environmentalstudies
@@ -10,5 +11,8 @@ chemistry
 business
 logistics
 programming
+computer technology
 python
 natural resource
+english
+computer science

@@ -43,11 +43,11 @@ def send_tweet(api):
 	#get the generated subject
 	my_subject = get_random_subject()
 
-	#get the generated heading
+	#get the generated headinga`1
 	my_heading = get_random_heading()
 
 	#embed the keyword in the tweet message
-	my_tweet = f"{my_heading}.I guarantee quality work and timely delivery if assigned\n #essaypay\n#essayhelp \n#{my_keyword}\n#assignments\n#homeworkpay\n#homeworkhelp\n#homeworkslave\n#{my_subject}\n#assignmenthelp\n#homework\n#assignment\nKindly DM @Josh_the_writer"
+	my_tweet = f"{my_heading}I guarantee quality work and timely delivery if assigned\n #essaypay\n#essayhelp \n#{my_keyword}\n#assignments\n#homeworkpay\n#homeworkhelp\n#homeworkslave\n#{my_subject}\n#assignmenthelp\n#homework\n#assignment\nKindly DM @Josh_the_writer joshwriter53@gmail.com"
 	#send the tweet message
 	api.update_status(status=my_tweet)
 
@@ -56,7 +56,7 @@ def send_tweet(api):
 	logger.info("sleeping...")
 
 	#setting interval between tweets
-	time.sleep(60)
+	time.sleep(600)
 
 """function for creating the API"""
 """And sending the tweet"""
