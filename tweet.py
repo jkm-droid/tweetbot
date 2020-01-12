@@ -47,7 +47,7 @@ def send_tweet(api):
 	my_heading = get_random_heading()
 
 	#embed the keyword in the tweet message
-	my_tweet = f"{my_heading}I guarantee quality work and timely delivery if assigned\n #essaypay\n#essayhelp \n#{my_keyword}\n#assignments\n#homeworkpay\n#homeworkhelp\n#homeworkslave\n#{my_subject}\n#assignmenthelp\n#homework\n#assignment\nKindly DM @Josh_the_writer"
+	my_tweet = "{my_heading} I guarantee quality work, original content and timely delivery.\n #essaypay\n#essayhelp \n#{my_keyword}\n#assignments\n#homeworkpay\n#homeworkhelp\n#homeworkslave\n#{my_subject}\n#assignmenthelp\n#homework\nKindly DM @Josh_the_writer".format(my_heading=my_heading, my_keyword=my_keyword,my_subject=my_subject)
 	#send the tweet message
 	api.update_status(status=my_tweet)
 
